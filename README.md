@@ -23,7 +23,7 @@ The original notebook remains available, and the repo now includes scriptable tr
 python3 cli.py --data data/sample_text.csv --text "team won the final match"
 ```
 
-## Run Tests
+## Tests
 
 ```bash
 python3 -m unittest discover -s tests -p "test_*.py"
