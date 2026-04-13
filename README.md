@@ -1,13 +1,27 @@
-# Naive-Bayes
+# Naive Bayes Showcase
 
-## Description
-Naive-Bayes - A project by sakib-maho
+This repository has been upgraded into a reproducible Naive Bayes mini-project.
+The original notebook remains available, and the repo now includes scriptable training + prediction via CLI.
+
+## Features
+
+- Lightweight multinomial Naive Bayes classifier
+- CSV training data loader (`text`, `label`)
+- CLI for classifying new text input
+- Unit tests for model behavior and CLI workflow
+
+## Quick Start
+
+```bash
+python3 cli.py --data data/sample_text.csv --text "team won the final match"
+```
+
+## Run Tests
+
+```bash
+python3 -m unittest discover -s tests -p "test_*.py"
+```
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Author
-sakib-maho
-
-## Copyright
-Copyright (c) 2025 sakib-maho
+MIT License. See `LICENSE`.
